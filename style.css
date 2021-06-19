@@ -1,0 +1,14 @@
+* {
+    background-color: whitesmoke;
+}
+
+.topo {
+    color: slategray;
+      
+}
+
+.header {
+    background-color: antiquewhite;
+    background-image:url("/images/setup.jpg");
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
