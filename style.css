@@ -1,9 +1,10 @@
 * {
-    background-color: whitesmoke;
+    background-image: radial-gradient(circle at 104.17% 95.45%,#5148ef 50%, #001a87 100%);
+    color: whitesmoke;
 }
-
 .topo {
     color: slategray;
+    
       
 }
 
