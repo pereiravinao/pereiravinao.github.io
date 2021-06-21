@@ -42,40 +42,20 @@
 }
 
 .whois{
-    padding: 10px 30px 50px 30px;
-    color: black;
-    block-size: 90%;
-    width: 97%;
-    margin-right: 50px;
-    padding: 60px 30px 40px 30px;
+    padding: 30px 10px 30px 30px;
+    margin-right: 20px;
     background-color: rgba(100, 100, 100, 0.2);    
 }
 .photo{
   border-radius: 50%;
   width: 150px;
   float: left;
-  margin-right: 30px;
+  margin-right: 20px;
   vertical-align: top;
 }
 .text_eu{
-  width: 60%;
+  width: 95%;
 }
 .linkedin{
   background-color: #0e76a8;
-  padding: 30px 10px 30px 10px;
-  text-align: center;
-  font-size: 30px;
-  margin-left: 700px;
-  margin-right: 700px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-border-radius: 20px;
-}
-.linkedin:hover {
-  background-color: #054f77;
-  cursor: pointer;
-  text-decoration: none;
- 
-  
 }
