@@ -11,10 +11,6 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-position: center;
-    /* padding-bottom: 400px; */
-    /* margin-bottom: 50px; */
-    /* position:absolute; */
-    /* padding-top: 400px;       */
 }
 .obs{
     font-size: 18px;
@@ -45,9 +41,15 @@
   font-size: 30px;
   margin-left: 700px;
   margin-right: 700px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
 }
 .linkedin:hover {
   background-color: #054f77;
-  cursor: default;
-
+  cursor: pointer;
+  text-decoration: none;
+ 
+  
 }
