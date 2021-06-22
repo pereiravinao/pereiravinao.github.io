@@ -89,12 +89,20 @@
 
 }
 
-.photo_project{
+.photo_project, .contacts img{
   border-radius: 25%;
 }
 
+.contacts{
+  margin: 0px 20px 0px 40px;
+  text-align: center;
+}
 
-
-.linkedin{
-  background-color: #0e76a8;
+.contacts img:hover {
+  border-radius: 20px;
+  border: solid;
+  border-radius: 25%;
+  width: 180px;
+  border-color: black;
+ 
 }
