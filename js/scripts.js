@@ -10,4 +10,16 @@ $(document).ready(function(){
     $(this).toggleClass("active");
     $(".navbar-menu").toggleClass("active");
   });
+  $("#homeIcon").click(function(){
+    $('.menu-toggler').toggleClass("active");
+    $(".navbar-menu").toggleClass("active");
+  })
+  $("#aboutIcon").click(function(){
+    $('.menu-toggler').toggleClass("active");
+    $(".navbar-menu").toggleClass("active");
+  })
+  $("#projectIcon").click(function(){
+    $('.menu-toggler').toggleClass("active");
+    $(".navbar-menu").toggleClass("active");
+  })
 });
