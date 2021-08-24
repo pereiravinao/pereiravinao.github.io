@@ -65,6 +65,7 @@
 
 .navbar-menu a:hover{
   color: #576568 !important;
+  border: solid 2px;
 }
 
 .sticky{
@@ -78,6 +79,11 @@
 
 .sticky .navbar-menu a{
   color: #111;
+}
+
+.sticky .navbar-menu a:hover{
+  color: rgb(134, 134, 134) !important;
+  border: solid 2px;
 }
 
 .sticky .menu-toggler span{
