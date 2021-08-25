@@ -143,15 +143,16 @@ html{
   }
 }
 
+section{
+  padding: 100px 0;
+  background-color: #f1f1f1;
+}
+
 #about{
   height: 100vh;
   min-height: 500px;
 }
 
-section{
-  padding: 100px 0;
-  background-color: #f1f1f1;
-}
 
 .sm a{
   display: inline-block;
@@ -249,8 +250,6 @@ section{
   border-color: grey;
 }
 
-/* Works */
-
 .section-title{
   text-align: center;
   margin-bottom: 80px;
@@ -338,7 +337,7 @@ section.dark .section-title::after{
   margin-top: 20px;
 }
 
-.time-line,.works{
+.works{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -392,7 +391,7 @@ section.dark .section-title::after{
   transform: scale(1);
 }
 
-
+/* 
 .contact-info{
   display: flex;
   justify-content: space-between;
@@ -464,7 +463,7 @@ section.dark .section-title::after{
 .contact-form .btn:hover{
   background-color: #48dbfb;
   color: #fff;
-}
+} */
 
 
 footer{
@@ -596,7 +595,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 600px){
   .inner-width{
     padding: 0 20px;
   }
@@ -613,6 +612,13 @@ footer{
     width: 100%;
   }
   
+  #about{
+    height: 100%;
+    margin-bottom: 30px;
+    /* min-height: 800px; */
+  }
+
+
   .about-pic{
     margin: 0 auto 60px;
   }
