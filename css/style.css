@@ -491,44 +491,22 @@ footer{
   right: 40px;
   width: 40px;
   height: 40px;
-  background-color: #48dbfb;
+  /* background-color: #48dbfb; */
   border: none;
   border-radius: 6px;
   cursor: pointer;
   color: rgb(24, 20, 20);
   outline: none;
   display: none;
+  animation: goTopAnim 15s linear infinite;
 }
 
-@keyframes glitch {
-  0%{
-    top: 0;
-    background-position: 12px 0;
+@keyframes goTopAnim{
+  35%{
+    background-color: rgb(3, 155, 3);
   }
-  
-  20%{
-    top: 80px;
-    background-position: -10px -80px;
-  }
-  
-  40%{
-    top: 160px;
-    background-position: 6px -160px;
-  }
-
-  60%{
-    top: 240px;
-    background-position: -6px -240px;
-  }
-
-  80%{
-    top: 320px;
-    background-position: 10px -320px;
-  }
-
-  100%{
-    top: 400px;
-    background-position: -12px -400px;
+  75%{
+    background-color: rgb(0, 124, 226);
   }
 }
 
@@ -645,4 +623,21 @@ footer{
     flex: 100%;
     text-align: center;
   }
+
+  .goTop{
+    position: fixed;
+    z-index: 999;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    outline: none;
+    display: none;
+  }
+
 }
