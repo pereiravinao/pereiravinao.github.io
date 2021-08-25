@@ -300,7 +300,6 @@
   transform: perspective(600px) rotateX(0deg);
 }
 .back{
-  /* background: #f1f1f1; */
   font-size: 1.5em;
   padding: 100px;
   transform: perspective(600px) rotateX(180deg);
@@ -493,6 +492,28 @@ section.dark .section-title::after{
   .work{
     width: calc(50% - 10px);
   }
+
+  .image_about_me{
+    width: calc(100% - 20px);
+    margin-left: auto;
+  }
+  .card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+  }
+
+  .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+  }
+
+  .front{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .back{
+    font-size: 100%;
+    padding: 100px;
+    transform: perspective(600px) rotateY(180deg);
+  }
+
 }
 
 @media screen and (max-width: 600px){
@@ -511,4 +532,26 @@ section.dark .section-title::after{
   .work{
     width: 100%;
   }
+
+  .image_about_me{
+      width: 100%;
+  }
+
+  .card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+  }
+
+  .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+  }
+
+  .front{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .back{
+    font-size: 1.5em;
+    padding: 100px;
+    transform: perspective(600px) rotateY(180deg);
+  }
+
 }
