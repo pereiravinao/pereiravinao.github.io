@@ -481,6 +481,38 @@ section.dark .section-title::after{
   margin-top: 20px;
 }
 
+@keyframes glitch {
+  0%{
+    top: 0;
+    background-position: 12px 0;
+  }
+
+  20%{
+    top: 80px;
+    background-position: -10px -80px;
+  }
+
+  40%{
+    top: 160px;
+    background-position: 6px -160px;
+  }
+
+  60%{
+    top: 240px;
+    background-position: -6px -240px;
+  }
+
+  80%{
+    top: 320px;
+    background-position: 10px -320px;
+  }
+
+  100%{
+    top: 400px;
+    background-position: -12px -400px;
+  }
+}
+
 @media screen and (max-width: 980px){
   .menu-toggler{
     display: block;

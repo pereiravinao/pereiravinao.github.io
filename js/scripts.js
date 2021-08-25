@@ -22,4 +22,9 @@ $(document).ready(function(){
     $('.menu-toggler').toggleClass("active");
     $(".navbar-menu").toggleClass("active");
   })
+  $(".works").magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    gallery:{enabled:true}
+  });
 });
